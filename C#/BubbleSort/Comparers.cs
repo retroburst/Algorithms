@@ -33,7 +33,7 @@ namespace BubbleSort
 		/// <param name="y">The y coordinate.</param>
 		public int Compare (string x, string y)
 		{
-			return(string.Compare(x, y, StringComparison.Ordinal));
+			return(string.Compare(x, y, StringComparison.OrdinalIgnoreCase));
 		}
 	}
 
