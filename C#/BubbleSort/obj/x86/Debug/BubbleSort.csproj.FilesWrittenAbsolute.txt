@@ -1,0 +1,5 @@
+/Users/retroburst/Development/Kata/C#/Algorithms/BubbleSort/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/retroburst/Development/Kata/C#/Algorithms/BubbleSort/bin/Debug/BubbleSort.exe.mdb
+/Users/retroburst/Development/Kata/C#/Algorithms/BubbleSort/bin/Debug/BubbleSort.exe
+/Users/retroburst/Development/Kata/C#/Algorithms/BubbleSort/obj/x86/Debug/BubbleSort.exe
+/Users/retroburst/Development/Kata/C#/Algorithms/BubbleSort/obj/x86/Debug/BubbleSort.exe.mdb
