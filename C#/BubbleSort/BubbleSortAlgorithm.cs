@@ -3,8 +3,18 @@ using System.Collections.Generic;
 
 namespace BubbleSort
 {
+	/// <summary>
+	/// Bubble sort algorithm.
+	/// </summary>
 	public static class BubbleSortAlgorithm
 	{
+		/// <summary>
+		/// Sorts the given list using the comparer.
+		/// </summary>
+		/// <returns>The sort.</returns>
+		/// <param name="target">Target.</param>
+		/// <param name="comparer">Comparer.</param>
+		/// <typeparam name="T">Type of list elements.</typeparam>
 		public static IList<T> BubbleSort<T>(IList<T> target, IComparer<T> comparer)
 		{
 			if(target == null) throw new ArgumentException("Argument cannot be null.", "target");

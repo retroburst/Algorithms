@@ -1,10 +1,16 @@
 ﻿using System;
-using System.Linq;
 
 namespace BubbleSort
 {
+	/// <summary>
+	/// Program.
+	/// </summary>
 	public class Program
 	{
+		/// <summary>
+		/// The entry point of the program, where the program control starts and ends.
+		/// </summary>
+		/// <param name="args">The command-line arguments.</param>
 		public static void Main (string[] args)
 		{
 			Random random = new Random();
@@ -16,18 +22,13 @@ namespace BubbleSort
 			Console.Out.WriteLine(Environment.NewLine);
 			BubbleSortAlgorithm.BubbleSort(integers, new IntegerComparer());
 			Console.Out.Write(string.Format("Integers after bubble sorting: {0}", Helpers.TextualizeList(integers, "{0}")));
-			Console.Out.WriteLine();
-
-			Console.Out.WriteLine();
+			Console.Out.WriteLine(Environment.NewLine);
 
 			Console.Out.Write(string.Format("Words before bubble sorting: {0}", Helpers.TextualizeList(words, "\"{0}\"")));
 			Console.Out.WriteLine(Environment.NewLine);
 			BubbleSortAlgorithm.BubbleSort(words, new StringOrdinalComparer());
 			Console.Out.Write(string.Format("Words after bubble sorting: {0}", Helpers.TextualizeList(words, "\"{0}\"")));
 			Console.Out.WriteLine();
-
 		}
-
-
 	}
 }
