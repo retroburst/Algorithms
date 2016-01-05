@@ -37,32 +37,41 @@ namespace QuickSort
 			int i = low;
 			int j = high;
 
-			T pivot = target [low + (high - low) / 2];
+			Console.Out.WriteLine(string.Format("PerformQuickSort called with low={0} and high={1}.", low, high));
+
+			int pivotIndex = low + (high - low) / 2;
+			T pivot = target [pivotIndex];
+			Console.Out.WriteLine(string.Format("Pivot at index={0}.", pivotIndex));
 
 			while (i <= j) {
 				// while elements on the left are less than the pivot element
 				while (comparer.Compare (target [i], pivot) <= -1) {
+					// move the pointer to the right
 					i++;
 				}
 				// while elements on the right are more than the pivot element
 				while (comparer.Compare (target [j], pivot) >= 1) {
+					// move the pointer to the left
 					j--;
 				}
 				if (i <= j) {
 					if (i != j) {
+						// swap the elements
+						Console.Out.WriteLine(string.Format("Swapping at i={0} and j={1}.", i, j));
 						T temp = target [i];
 						target [i] = target [j];
 						target [j] = temp;
 					}
+					// move the pointers after the swap
 					i++;
 					j--;
 				}
-				if (j > low) {
-					PerformQuickSort (target, comparer, low, j);
-				}
-				if (i < high) {
-					PerformQuickSort (target, comparer, i, high);
-				}
+			}
+			if (j > low) {
+				PerformQuickSort (target, comparer, low, j);
+			}
+			if (i < high) {
+				PerformQuickSort (target, comparer, i, high);
 			}
 		}
 
