@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="BubbleSort.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BubbleSortAlgorithm.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helpers.cs">
     <Files>
-      <File FileName="BubbleSortAlgorithm.cs" Line="36" Column="6" />
+      <File FileName="BubbleSortAlgorithm.cs" Line="47" Column="64" />
+      <File FileName="Program.cs" Line="37" Column="47" />
+      <File FileName="Helpers.cs" Line="37" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

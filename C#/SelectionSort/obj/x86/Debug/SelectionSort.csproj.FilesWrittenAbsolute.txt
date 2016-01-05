@@ -1,0 +1,5 @@
+/Users/retroburst/Development/Algorithms/C#/SelectionSort/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/retroburst/Development/Algorithms/C#/SelectionSort/bin/Debug/SelectionSort.exe.mdb
+/Users/retroburst/Development/Algorithms/C#/SelectionSort/bin/Debug/SelectionSort.exe
+/Users/retroburst/Development/Algorithms/C#/SelectionSort/obj/x86/Debug/SelectionSort.exe
+/Users/retroburst/Development/Algorithms/C#/SelectionSort/obj/x86/Debug/SelectionSort.exe.mdb
