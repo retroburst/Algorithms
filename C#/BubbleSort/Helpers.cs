@@ -9,6 +9,8 @@ namespace BubbleSort
 	/// </summary>
 	public static class Helpers
 	{
+		private static Random random = new Random();
+
 		/// <summary>
 		/// Generates a random integer array.
 		/// </summary>
@@ -16,13 +18,27 @@ namespace BubbleSort
 		/// <param name="size">Size.</param>
 		/// <param name="min">Minimum.</param>
 		/// <param name="max">Max.</param>
-		/// <param name="random">Random.</param>
-		public static int[] GenerateRandomIntegerArray(int size, int min, int max, Random random)
+		public static int[] GenerateRandomIntegerArray(int size, int min, int max)
 		{
 			int[] result = new int[size];
 			for(int i=0; i < size; i++)
 			{
 				result[i] = random.Next(min, max);
+			}
+			return(result);
+		}
+
+		/// <summary>
+		/// Generates a random double array.
+		/// </summary>
+		/// <returns>The random double array.</returns>
+		/// <param name="size">Size.</param>
+		public static double[] GenerateRandomDoubleArray(int size)
+		{
+			double[] result = new double[size];
+			for(int i=0; i < size; i++)
+			{
+				result[i] = Math.Round(random.NextDouble() * 100, 2);
 			}
 			return(result);
 		}
