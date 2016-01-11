@@ -44,7 +44,7 @@ void SelectionSort(int target[], int length)
     {
         // make sure it is the min of rest of array
         int indexOfMin = i;
-        for(int j=i; j < length; j++)
+        for(int j=i+1; j < length; j++)
         {
             // if not min of rest of array, record new min
             if(target[j] < target[indexOfMin]) { indexOfMin = j; }
