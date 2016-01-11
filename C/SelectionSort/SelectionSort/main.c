@@ -16,10 +16,10 @@ void SelectionSort(int target[], int length);
 // main - entry point
 int main(int argc, const char * argv[]) {
     int numbers[10] = { 12, 445, 55, 67, 2, 7, 909, 45, 4454, 1 };
-    printf("Before selection sort: ");
+    printf("Before Selection Sort: ");
     PrintArray(numbers, 10);
     SelectionSort(numbers, 10);
-    printf("After selection sort: ");
+    printf("After Selection Sort: ");
     PrintArray(numbers, 10);
     return 0;
 }
