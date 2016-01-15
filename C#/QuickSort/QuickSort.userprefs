@@ -1,9 +1,8 @@
 ﻿<Properties StartupItem="QuickSort.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Helpers.cs">
     <Files>
-      <File FileName="QuickSortAlgorithm.cs" Line="77" Column="3" />
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Helpers.cs" Line="53" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

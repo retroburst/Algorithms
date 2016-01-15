@@ -1,10 +1,6 @@
 ﻿<Properties StartupItem="InsertionSort.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InsertionSortAlgorithm.cs">
-    <Files>
-      <File FileName="InsertionSortAlgorithm.cs" Line="34" Column="35" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
